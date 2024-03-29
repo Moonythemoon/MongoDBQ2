@@ -1,16 +1,21 @@
 {
   "name": "testmongoose",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "homepage": "http://Moonythemoon.github.io/MongoDBQ2",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "mongoose": "^7.0.3"
-  }
+    "express": "^4.19.2",
+    "mongoose": "^7.6.10"
+  },
+  "keywords": [],
+  "description": ""
 }
